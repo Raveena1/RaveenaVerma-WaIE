@@ -57,7 +57,7 @@ class ApodFragment : BaseFragment<ApodViewModel, FragmentApodBinding, ApodReposi
                         // Set text for APOD Explanation
                         binding.apodExpln.text = it.value.explanation
                         // Load APOD Image
-                        Picasso.get().load(it.value.hdurl).resize(600,600).into(apod_image)
+                        Picasso.get().load(it.value.hdurl).resize(600,600).onlyScaleDown().into(apod_image)
                     }
                 }
 
@@ -84,7 +84,7 @@ class ApodFragment : BaseFragment<ApodViewModel, FragmentApodBinding, ApodReposi
                         Log.d("raveena", it.get(0).title.toString())
                         binding.apodExpln.text = it.get(0).explanation
                         binding.mainTitle.text = it.get(0).title
-                        Picasso.get().load(it.get(0).imageurl).resize(600, 600).into(apod_image)
+                        Picasso.get().load(it.get(0).imageurl).resize(600, 600).onlyScaleDown().into(apod_image)
                     }
 
                 })
