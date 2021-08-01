@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My ApplicationWalmart</string>
+    <string name="network_error_msg">We are not connected to the internet,Showing you the last image we have</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="apod_title_top_margin">20dp</dimen>
+    <dimen name="apod_title_text_size">20dp</dimen>
+    <dimen name="apod_expln_text_size">10dp</dimen>
+</resources>
