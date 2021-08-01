@@ -1,4 +1,3 @@
-
 package com.example.myapplicationwalmart.repository
 
 import com.example.myapplicationwalmart.network.Resource

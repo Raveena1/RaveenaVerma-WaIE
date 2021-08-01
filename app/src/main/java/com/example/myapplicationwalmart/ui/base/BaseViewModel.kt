@@ -1,4 +1,3 @@
-
 package com.example.myapplicationwalmart.ui.base
 
 import androidx.lifecycle.ViewModel

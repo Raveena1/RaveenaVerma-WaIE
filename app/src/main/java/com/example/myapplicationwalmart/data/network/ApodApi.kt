@@ -1,4 +1,3 @@
-
 package com.example.myapplicationwalmart.network
 
 import com.example.myapplicationwalmart.responses.APODData

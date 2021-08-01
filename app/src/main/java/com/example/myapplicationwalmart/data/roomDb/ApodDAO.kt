@@ -1,4 +1,3 @@
-
 package com.example.walmartproject.db
 
 import androidx.lifecycle.LiveData

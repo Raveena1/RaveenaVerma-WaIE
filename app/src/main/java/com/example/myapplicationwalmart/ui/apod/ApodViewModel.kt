@@ -1,4 +1,3 @@
-
 package com.example.myapplicationwalmart.ui.apod
 
 import androidx.lifecycle.LiveData
