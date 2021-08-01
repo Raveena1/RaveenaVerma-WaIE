@@ -10,3 +10,6 @@
 ### When First time user launch App without Internet, we can have a default Astronomical Photo image but that was not clear 
 ### requirement. 
 ### More Interactive UI can be made.
+## Changes can be made for image data to be load as normal image as currently I have used, "hdUrl" field which may take more time to load
+## depends on Internet connection
+## Debugging Logs can be added to Debug the code
